@@ -9,7 +9,7 @@ let package = Package(
     ],
 
     dependencies: [
-        .package(url: "https://github.com/noahemmet/Runtime.git", .branch("master")),
+        .package(url: "https://github.com/HappySwifter/Runtime.git", .branch("master")),
 
         // ⏱ Promises and reactive-streams in Swift built for high-performance and scalability.
         .package(url: "https://github.com/vapor/core.git", .upToNextMajor(from: "3.0.0")),
